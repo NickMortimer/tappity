@@ -5,9 +5,13 @@ This package converts tappit json files to
 ## Install
 
 git clone https://github.com/NickMortimer/tappity.git
+
 move to directory
+
 conda env create -f environment.yml
+
 conda activate tappity
+
 pip install .
 
 example code 
