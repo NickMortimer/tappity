@@ -30,3 +30,12 @@ for file in files:
     data.to_csv(file)
 ```
 
+Please note the file names must have the following convention
+
+TAPPITY_NDR2019_3017_20190330T031612.json
+
+this format
+
+TAPPITY_{voyage}_{station/operation}_2019033003T1612.json
+
+
