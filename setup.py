@@ -17,8 +17,6 @@ setuptools.setup(
         'Bug Reports':
         'https://github.com/NickMortimer/tappity/issues',
         'Source Code': 'https://github.com/NickMortimer/tappity',
-        # 'Funding': '',
-        # 'Say Thanks!': '',
     },
     package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
@@ -38,7 +36,12 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
+    install_requires=[
+        "numpy>=1.20.3",
+        "pandas>=1.2.4",
+        "xarray>=0.18.2",
+   ],
     # install_requires=['Pillow'],
     extras_require={
         'dev': ['check-manifest'],

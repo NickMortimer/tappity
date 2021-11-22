@@ -1,0 +1,7 @@
+name: tappity
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+
